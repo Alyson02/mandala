@@ -1,0 +1,29 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body{
+    width: 580px;
+    height: 580px;
+    background-color: aqua;
+    -webkit-border-radius: 500px;
+    -o-border-radius: 500px;
+    border-radius: 500px;
+}
+
+.content{
+    margin-top: 45px;
+    width: 600px;
+    display: grid;  
+    grid-template-columns: 1fr 1fr;
+}
+
+.hold{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    padding: 10px;
+}
+
